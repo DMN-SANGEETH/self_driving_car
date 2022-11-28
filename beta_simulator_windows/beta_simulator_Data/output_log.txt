@@ -21,7 +21,7 @@ Platform assembly: C:\Users\User\Desktop\New folder (2)\self_driving_car\beta_si
 Loading C:\Users\User\Desktop\New folder (2)\self_driving_car\beta_simulator_windows\beta_simulator_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\User\Desktop\New folder (2)\self_driving_car\beta_simulator_windows\beta_simulator_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading C:\Users\User\Desktop\New folder (2)\self_driving_car\beta_simulator_windows\beta_simulator_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.072 seconds
+- Completed reload, in  0.028 seconds
 Platform assembly: C:\Users\User\Desktop\New folder (2)\self_driving_car\beta_simulator_windows\beta_simulator_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\User\Desktop\New folder (2)\self_driving_car\beta_simulator_windows\beta_simulator_Data\Managed\System.dll (this message is harmless)
 OnLevelWasLoaded was found on ReturnToMainMenu
@@ -34,3 +34,294 @@ Platform assembly: C:\Users\User\Desktop\New folder (2)\self_driving_car\beta_si
 desktop: 1920x1080 144Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.831200 ms
+Setting up 3 worker threads for Enlighten.
+  Thread -> id: 49b0 -> priority: 1 
+  Thread -> id: 2140 -> priority: 1 
+  Thread -> id: 940 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 11.326099 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 511.
+Total: 0.192800 ms (FindLiveObjects: 0.021400 ms CreateObjectMapping: 0.011400 ms MarkObjects: 0.139100 ms  DeleteObjects: 0.007000 ms)
+
+in menu script 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.667900 ms
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1623.
+Total: 0.545900 ms (FindLiveObjects: 0.072600 ms CreateObjectMapping: 0.018800 ms MarkObjects: 0.196700 ms  DeleteObjects: 0.257200 ms)
+
+True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.914600 ms
+
+Unloading 180 unused Assets to reduce memory usage. Loaded Objects now: 522.
+Total: 1.447400 ms (FindLiveObjects: 0.022700 ms CreateObjectMapping: 0.011000 ms MarkObjects: 0.139100 ms  DeleteObjects: 1.274300 ms)
+
+in menu script 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.310700 ms
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1624.
+Total: 1.319600 ms (FindLiveObjects: 0.124700 ms CreateObjectMapping: 0.057100 ms MarkObjects: 0.468700 ms  DeleteObjects: 0.668200 ms)
+
+True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Starting to record
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Stopping record
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Writing to disk
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DirectoryNotFoundException: Could not find a part of the path "C:\Users\User\Desktop\New folder (2)\self_driving_car\data\IMG\center_2022_11_28_11_55_18_392.jpg".
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in <filename unknown>:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int)
+  at System.IO.File.Create (System.String path, Int32 bufferSize) [0x00000] in <filename unknown>:0 
+  at System.IO.File.Create (System.String path) [0x00000] in <filename unknown>:0 
+  at System.IO.File.WriteAllBytes (System.String path, System.Byte[] bytes) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.WriteImage (UnityEngine.Camera camera, System.String prepend, System.String timestamp) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController+<WriteSamplesToDisk>c__Iterator0.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Stopping record
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Writing to disk
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DirectoryNotFoundException: Could not find a part of the path "C:\Users\User\Desktop\New folder (2)\self_driving_car\data\IMG\center_2022_11_28_11_55_18_466.jpg".
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in <filename unknown>:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int)
+  at System.IO.File.Create (System.String path, Int32 bufferSize) [0x00000] in <filename unknown>:0 
+  at System.IO.File.Create (System.String path) [0x00000] in <filename unknown>:0 
+  at System.IO.File.WriteAllBytes (System.String path, System.Byte[] bytes) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.WriteImage (UnityEngine.Camera camera, System.String prepend, System.String timestamp) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController+<WriteSamplesToDisk>c__Iterator0.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Stopping record
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Writing to disk
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DirectoryNotFoundException: Could not find a part of the path "C:\Users\User\Desktop\New folder (2)\self_driving_car\data\IMG\center_2022_11_28_11_55_18_538.jpg".
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in <filename unknown>:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int)
+  at System.IO.File.Create (System.String path, Int32 bufferSize) [0x00000] in <filename unknown>:0 
+  at System.IO.File.Create (System.String path) [0x00000] in <filename unknown>:0 
+  at System.IO.File.WriteAllBytes (System.String path, System.Byte[] bytes) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.WriteImage (UnityEngine.Camera camera, System.String prepend, System.String timestamp) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController+<WriteSamplesToDisk>c__Iterator0.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Stopping record
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Writing to disk
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DirectoryNotFoundException: Could not find a part of the path "C:\Users\User\Desktop\New folder (2)\self_driving_car\data\IMG\center_2022_11_28_11_55_18_606.jpg".
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in <filename unknown>:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int)
+  at System.IO.File.Create (System.String path, Int32 bufferSize) [0x00000] in <filename unknown>:0 
+  at System.IO.File.Create (System.String path) [0x00000] in <filename unknown>:0 
+  at System.IO.File.WriteAllBytes (System.String path, System.Byte[] bytes) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.WriteImage (UnityEngine.Camera camera, System.String prepend, System.String timestamp) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController+<WriteSamplesToDisk>c__Iterator0.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Stopping record
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Writing to disk
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DirectoryNotFoundException: Could not find a part of the path "C:\Users\User\Desktop\New folder (2)\self_driving_car\data\IMG\center_2022_11_28_11_55_18_678.jpg".
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in <filename unknown>:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int)
+  at System.IO.File.Create (System.String path, Int32 bufferSize) [0x00000] in <filename unknown>:0 
+  at System.IO.File.Create (System.String path) [0x00000] in <filename unknown>:0 
+  at System.IO.File.WriteAllBytes (System.String path, System.Byte[] bytes) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.WriteImage (UnityEngine.Camera camera, System.String prepend, System.String timestamp) [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController+<WriteSamplesToDisk>c__Iterator0.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.514400 ms
+
+Unloading 407 unused Assets to reduce memory usage. Loaded Objects now: 1245.
+Total: 2.981800 ms (FindLiveObjects: 0.090500 ms CreateObjectMapping: 0.023300 ms MarkObjects: 0.557900 ms  DeleteObjects: 2.307700 ms)
+
+in menu script 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.355500 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1285.
+Total: 0.684200 ms (FindLiveObjects: 0.092500 ms CreateObjectMapping: 0.018700 ms MarkObjects: 0.564300 ms  DeleteObjects: 0.007600 ms)
+
+in menu script 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+go to main menu
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.369700 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1245.
+Total: 0.635600 ms (FindLiveObjects: 0.086700 ms CreateObjectMapping: 0.020300 ms MarkObjects: 0.522600 ms  DeleteObjects: 0.005300 ms)
+
+in menu script 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.326000 ms
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2347.
+Total: 0.974200 ms (FindLiveObjects: 0.058500 ms CreateObjectMapping: 0.019700 ms MarkObjects: 0.532700 ms  DeleteObjects: 0.363000 ms)
+
+True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Starting to record
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Stopping record
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Writing to disk
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Starting to record
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Stopping record
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Writing to disk
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Starting to record
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Stopping record
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Writing to disk
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Starting to record
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Stopping record
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Writing to disk
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.854900 ms
+
+Unloading 180 unused Assets to reduce memory usage. Loaded Objects now: 1245.
+Total: 2.645500 ms (FindLiveObjects: 0.062700 ms CreateObjectMapping: 0.025000 ms MarkObjects: 0.652500 ms  DeleteObjects: 1.904500 ms)
+
+in menu script 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.305800 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1285.
+Total: 0.528400 ms (FindLiveObjects: 0.034300 ms CreateObjectMapping: 0.018500 ms MarkObjects: 0.466600 ms  DeleteObjects: 0.008600 ms)
+
+in menu script 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+go to main menu
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.346300 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1245.
+Total: 0.626900 ms (FindLiveObjects: 0.053100 ms CreateObjectMapping: 0.019700 ms MarkObjects: 0.546500 ms  DeleteObjects: 0.007300 ms)
+
+in menu script 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.313800 ms
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2347.
+Total: 1.242800 ms (FindLiveObjects: 0.101300 ms CreateObjectMapping: 0.030000 ms MarkObjects: 0.669600 ms  DeleteObjects: 0.441300 ms)
+
+True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
